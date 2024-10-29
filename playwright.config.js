@@ -5,7 +5,7 @@ module.exports = {
       browserName: 'chromium',          
       headless: true                     
     },
-    reporter: 'html',
+    reporter: process.env.CI ? 'dot' : 'list',
     testDir: './tests',                 
     timeout: 30000,  
     retries: 2                    
