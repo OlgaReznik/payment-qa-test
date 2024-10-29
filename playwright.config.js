@@ -1,11 +1,12 @@
 // playwright.config.js
 module.exports = {
     use: {
-      baseURL: 'http://paytest.dev:5000', // Update with your mock API base URL if needed
-      browserName: 'chromium',           // Default browser
-      headless: true                     // Run headless mode
+      baseURL: 'http://paytest.dev:5000', 
+      browserName: 'chromium',          
+      headless: true                     
     },
-    testDir: './tests',                  // Directory where test files are located
-    timeout: 30000,                      // Test timeout of 30 seconds
+    testDir: './tests',                 
+    timeout: 30000,  
+    retries: 2                    
   };
   

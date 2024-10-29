@@ -1,0 +1,59 @@
+{
+  "validCreditCard": {
+    "card_number": "4111111111111111",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "credit_card"
+  },
+  "insufficientFundsCard": {
+    "card_number": "4000000000000002",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "credit_card"
+  },
+  "invalidCard": {
+    "card_number": "5100000000000002",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "credit_card"
+  },
+  "invalidCVV": {
+    "card_number": "4111111111111113",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "credit_card"
+  },
+  "expiredCard": {
+    "card_number": "4111111111111112",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "credit_card"
+  },
+
+  "unknownError": {
+    "card_number": "6111111111111113",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "digital_wallet"
+  },
+  
+  "payPalSuccess": {
+    "card_number": "paypal-success",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "amount": 100.50,
+    "currency": "USD",
+    "payment_method": "digital_wallet"}
+}
