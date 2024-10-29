@@ -5,6 +5,7 @@ module.exports = {
       browserName: 'chromium',          
       headless: true                     
     },
+    reporter: 'html',
     testDir: './tests',                 
     timeout: 30000,  
     retries: 2                    
